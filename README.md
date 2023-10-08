@@ -89,7 +89,7 @@ Varginia, North Carolina, Colorado, Florida, Massachusetts and Maryland.
 
 ### Exploratory Data Analysis
 
-To understand the distribution of the properties at various levels starting at ### Economic Region Level. The US is divided into eight economic regions by 
+To understand the distribution of the properties at various levels starting at Economic Region Level. The US is divided into eight economic regions by 
 The Bureau of Economic Analysis for comparison of economic data and they are as below.
 
 
