@@ -31,9 +31,13 @@ in different major US states.
 
 
 # Aim
-Affordable housing is not a handout. It is a necessity. Finding ideal accommodation that fits our budget as well as the one that offers space for every member of the family. The rent of the house depends on the number of bedrooms, bathrooms and amenities available.  With use of appropriate machine learning algorithms people can find ideal home the best available home that fit their needs and budget the best from all the available choices in the market. To achieve this, we will do the following:
-I. Design a Machine Learning model to predict rent for desired homes at desired city or state
-II. Determine appropriate features required for predicting the rent for the homes
+Affordable housing is not a handout. It is a necessity. Finding ideal accommodation that fits our budget as well 
+as the one that offers space for every member of the family. The rent of the house depends on the number of bedrooms, 
+bathrooms and amenities available.  With use of appropriate machine learning algorithms people can find ideal home that 
+best fits their needs and budget from all the available choices in the market. To achieve this, we will do the following:
+
+## I. Design a Machine Learning model to predict rent for desired homes at desired city or state
+## II. Determine appropriate features required for predicting the rent for the homes
 The basic requirements to meet this aim we need to do the following steps: 
 1.	Data Collection
 2.	Data Cleaning
