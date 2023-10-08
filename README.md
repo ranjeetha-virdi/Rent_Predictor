@@ -103,8 +103,6 @@ The region with maximum space available for rent is New England respectively.
 ![price](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/f48f0039-42f5-46a2-95e0-12b04ade214a)
 
 
-
-
 ![square_feet](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/b4f44839-8ad0-4887-81af-4fdb914fe769)
 
 
@@ -117,4 +115,24 @@ Similarly we have also analysed states for the above aspects of affordability an
 ![SQUARE_FEET_num](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/5b6ab044-fe9d-4a5b-b362-690ad96c69e9)
 
 ![PRICE_num](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/13ad2d47-84c9-4c4d-889d-907260b4ed98)
+
+We have also tried to analyze these aspects at city level for each state for example in California, most expensive city was Los Altos and most affordable city was Ridgecrest.
+Similarly in Florida the most expensive city was Palm Beach Gardens and the most affordable city was Seminole. In Texas the most expensive city being Leander and most affordable 
+being Troup. 
+
+![CA](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/6b620e88-2c2b-4ed7-ba7c-f3dc68337be0)
+
+
+![FL](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/6659d653-8ff6-4bd1-b98e-a6e20ec311f5)
+
+
+![TX](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/8c835043-3cc9-4a17-81ac-40f087c72ee0)
+
+Wehave also analysed cities for their spaciousness in various states. For example least spacious city in California is Wilton and most spacious being Granada Hills.
+
+We have also tried to look at the distribution of Numerical columns like price,square feet, Bedrooms and Bathrooms.
+
+![CA](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/305ce54d-a36a-4fbe-a8dc-4d95af3498be)
+
+![FL](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/b346c7b2-a01d-4e21-96c6-026267e0bfac)
 
