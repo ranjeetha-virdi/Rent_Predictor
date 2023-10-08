@@ -75,7 +75,7 @@ allowed or not and has a fee or not.
 
 ### Data Cleaning 
 
-#To get an overview of the dataset at hand, like examining the spread of the numerical data like price, square feet, bedrooms and bathrooms
+To get an overview of the dataset at hand, like examining the spread of the numerical data like price, square feet, bedrooms and bathrooms
 and examine the presence of null values, I have a helper function to summarize all these aspects of the data set we can easily have a 
 summarized overview of the distribution of our data set. Also we can see that there are many columns like amenities, pets allowed and 
 address with missing values. 
@@ -86,7 +86,11 @@ have a higher rent as compared to an apartment only with a refrigerator and ac. 
 an apartment or a home is available at rent.
 
 ### Exploratory Data Analysis
+To understand the distribution of the properties at various levels starting at Economic Region Level. The US is divided into eight economic regions by 
+The Bureau of Economic Analysis for comparison of economic data. 
 
+
+![BEA_regions](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/ab1f135e-2990-47b7-a43b-97494943ac1a)
 
 
 
