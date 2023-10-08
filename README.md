@@ -87,10 +87,18 @@ an apartment or a home is available at rent.
 
 ### Exploratory Data Analysis
 To understand the distribution of the properties at various levels starting at Economic Region Level. The US is divided into eight economic regions by 
-The Bureau of Economic Analysis for comparison of economic data. 
+The Bureau of Economic Analysis for comparison of economic data and they are as below.
 
 
 ![BEA_regions](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/ab1f135e-2990-47b7-a43b-97494943ac1a)
+
+Here we have create a new feature called economic region by grouping various states to create these regions from the existing feature state.
+From this feature we could vizualize that Southeast is the most affordable region and Far West is the most expensive region to rent a home.
+
+
+![affordability](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/164bc279-d06e-4491-960b-23abbbb3ed6f)
+
+
 
 
 
