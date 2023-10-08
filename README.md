@@ -78,6 +78,17 @@ allowed or not and has a fee or not.
 #To get an overview of the dataset at hand, like examining the spread of the numerical data like price, square feet, bedrooms and bathrooms
 and examine the presence of null values, I have a helper function to summarize all these aspects of the data set we can easily have a 
 summarized overview of the distribution of our data set. Also we can see that there are many columns like amenities, pets allowed and 
-address with missing values.
+address with missing values. 
+The cleaning process include dropping columns like address, latitude and longitude. 
+Convert the price feature for some properties were specified in terms of weekly basis to monthly basis. Formatting amenities columns to properly 
+encode ordinal values based on their importance. Example if an apartment is with acess to golf club and swimming pool then it will be evaluated to
+have a higher rent as compared to an apartment only with a refrigerator and ac. Bring columns like category which specifies the type of property ie 
+an apartment or a home is available at rent.
+
+### Exploratory Data Analysis
+
+
+
+
 
   
