@@ -34,20 +34,21 @@ in different major US states.
 Affordable housing is not a handout. It is a necessity. Finding ideal accommodation that fits our budget as well 
 as the one that offers space for every member of the family. The rent of the house depends on the number of bedrooms, 
 bathrooms and amenities available.  With use of appropriate machine learning algorithms people can find ideal home that 
-best fits their needs and budget from all the available choices in the market. To achieve this, we will do the following:
-
-## I. Design a Machine Learning model to predict rent for desired homes at desired city or state
-## II. Determine appropriate features required for predicting the rent for the homes
-The basic requirements to meet this aim we need to do the following steps: 
-1.	Data Collection
-2.	Data Cleaning
-3.	Exploratory Data Analysis
-4.	Feature Encoding
-5.	Feature Engineering to create new features like affordability and Economic Regions of US
-6.	Test Train Split
-7.	Modeling, test the data on different machine learning models 
-8.	Hyperparameter tuning
-9.	Model Evaluation and find the best model 
+best fits their needs and budget from all the available choices in the market. 
+## To achieve this, we will do the following:
+   I. Design a Machine Learning model to predict rent for desired homes at desired city or state
+   II. Determine appropriate features required for predicting the rent for the homes
+   
+   The basic requirements to meet this aim we need to do the following steps: 
+      1.	Data Collection
+      2.	Data Cleaning
+      3.	Exploratory Data Analysis
+      4.	Feature Encoding
+      5.	Feature Engineering to create new features like affordability and Economic Regions of US
+      6.	Test Train Split
+      7.	Modeling, test the data on different machine learning models 
+      8.	Hyperparameter tuning
+      9.	Model Evaluation and find the best model 
 
 Data Collection
 For analysis of the housing rent market, in US we use the dataset available at UCI Machine Learning Repository at URL as stated below: https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified 
