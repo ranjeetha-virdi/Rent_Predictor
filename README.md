@@ -166,10 +166,17 @@ We will create a dictionary with key as state and values as the DataFrame, then 
      3. Adaboost Regression
      4. Gradient Boost Regression
      5. XGBoost Regression
+![all_models_mae](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/07caa464-4535-463d-8d2a-e3c39cfdca56)
 
-   #### After evaluation the best performing model was XGBoost Regression which performed the best. The models were evaluted on the basis of two metrics
+
+![all_models_r2](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/bcf0dd2f-8ccd-480f-b2c0-dfdf3b7b85c5)
+
+#### After evaluation the best performing model was XGBoost Regression which performed the best. The models were evaluted on the basis of two metrics
         1. R² score
         2. Mean Absolute Error
 
    The model was further tuned by adjusting the hyperparameters for xgboost regressor which includes learning rate, max depth and n_estimators.
+   
+![hyperparameter_tuning](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/c8de8224-7c9d-47b7-b421-58b28d23a1a0)
+
 
