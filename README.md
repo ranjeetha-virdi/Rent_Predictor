@@ -108,4 +108,7 @@ The region with maximum space available for rent is New England respectively.
 ![square_feet](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/b4f44839-8ad0-4887-81af-4fdb914fe769)
 
 
+Similarly we have also analysed states for the above aspects of affordability and expensiveness to rent a flat. The most affordable and with most available space is North Carolina, most expensive state to rent a home being California followed by Massachusetts.
+
+
   
