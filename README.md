@@ -128,7 +128,15 @@ being Troup.
 
 ![TX](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/8c835043-3cc9-4a17-81ac-40f087c72ee0)
 
-Wehave also analysed cities for their spaciousness in various states. For example least spacious city in California is Wilton and most spacious being Granada Hills.
+We have also analysed cities for their spaciousness in various states. For example least spacious city in California is Wilton and most spacious being Granada Hills.
+In Colorado the most spacious city being Erie and least spacious being Highlands Ranch.
+
+
+![CA](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/826e6fa4-66cb-4b9b-8cae-e8a71d98ef28)
+
+![CO](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/48ad9b01-7fc5-448d-a35f-357044832014)
+
+
 
 We have also tried to look at the distribution of Numerical columns like price,square feet, Bedrooms and Bathrooms.
 
