@@ -62,11 +62,20 @@ best fits their needs and budget from all the available choices in the market.
       
       9.	Model Evaluation and find the best model 
 
-Data Collection
-For analysis of the housing rent market, in US we use the dataset available at UCI Machine Learning Repository at URL as stated below: https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified 
-the dataset has data points for apartment, homes and retail properties available for rent across all the states in US. The dataset has 1,00,000 rows and 22 columns with each row representing each property available for rent with numerical features like bedrooms, bathrooms, square feet and rent and categorical features like category of the property whether home or apartment, amenities, pets allowed or not and has a fee or not.
+### Data Collection
 
-Data Cleaning 
-To get an overview of the dataset at hand, like examining the spread of the numerical data like price, square feet, bedrooms and bathrooms and examine the presence of null values, I have a helper function to summarize all these aspects of the data set we can easily have a summarized overview of the distribution of our data set. Also we can see that there are many columns like amenities, pets allowed and address with missing values.
+For analysis of the housing rent market, in US we use the dataset available at UCI Machine Learning Repository at URL as stated below: 
+https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified 
+the dataset has data points for apartment, homes and retail properties available for rent across all the states in US. The dataset 
+has 1,00,000 rows and 22 columns with each row representing each property available for rent with numerical features like bedrooms, 
+bathrooms, square feet and rent and categorical features like category of the property whether home or apartment, amenities, pets 
+allowed or not and has a fee or not.
+
+### Data Cleaning 
+
+#To get an overview of the dataset at hand, like examining the spread of the numerical data like price, square feet, bedrooms and bathrooms
+and examine the presence of null values, I have a helper function to summarize all these aspects of the data set we can easily have a 
+summarized overview of the distribution of our data set. Also we can see that there are many columns like amenities, pets allowed and 
+address with missing values.
 
   
