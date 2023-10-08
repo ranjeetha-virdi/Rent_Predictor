@@ -2,14 +2,26 @@
 
 
 
+
+
+
+
+
+
 Introduction
-A house is not just a building. It is a home—a place that shelters, protects and nurtures its occupants. It supports their 
-personal and professional development and offers a safe harbor. Affordable housing improves the quality of life of residents 
-by leading to better health, adequate jobs, financial stability, security, and population diversity. The effects of affordable 
-housing on residents are profound and capable of transforming communities. Affordable housing enables people to have more money in hand after paying rent, hence more purchasing power to 
-pump money into the economy helping other small businesses like restaurants, supermarkets, bakeries etc. There by enabling over all economic development and quality of life.
-Housing is a vital economic sector in the United States, contributing to 15% of the GDP. The majority of Americans (64%) own their own homes, but the remaining 36% who cannot afford to 
-buy a home for themselves need to rent a home. Majority of them survive on paycheck-to-paycheck basis. Hence affordable housing is key to their survival and keep homelessness at bay.
+A house is not just a building. It is a home—a place that shelters, protects and nurtures its occupants. 
+It supports their personal and professional development and offers a safe harbor. Affordable housing 
+improves the quality of life of residents by leading to better health, adequate jobs, financial stability, 
+security, and population diversity. The effects of affordable housing on residents are profound and capable 
+of transforming communities. Affordable housing enables people to have more money in hand after paying rent, 
+hence more purchasing power to pump money into the economy helping other small businesses like restaurants, 
+supermarkets, bakeries etc. There by enabling over all economic development and quality of life.
+
+Housing is a vital economic sector in the United States, contributing to 15% of the GDP. The majority of 
+Americans (64%) own their own homes, but the remaining 36% who cannot afford to buy a home for themselves 
+need to rent a home. Majority of them survive on paycheck-to-paycheck basis. Hence affordable housing is 
+key to their survival and keep homelessness at bay.
+
 There is a need to understand the statewide availability of housing for rent and how affordable they are at various levels including economic region, state and city level. There is also 
 a need to analyze the most affordable cities to live in major states and also design a prediction system to predict the rent for apartments in different major US states.
 #Aim
