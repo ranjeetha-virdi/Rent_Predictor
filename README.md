@@ -37,6 +37,8 @@ bathrooms and amenities available.  With use of appropriate machine learning alg
 best fits their needs and budget from all the available choices in the market. 
 ## To achieve this, we will do the following:
    I. Design a Machine Learning model to predict rent for desired homes at desired city or state
+   
+   
    II. Determine appropriate features required for predicting the rent for the homes
    
    The basic requirements to meet this aim we need to do the following steps: 
