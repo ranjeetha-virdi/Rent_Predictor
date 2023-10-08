@@ -9,6 +9,8 @@
 
 
 Introduction
+
+
 A house is not just a building. It is a home—a place that shelters, protects and nurtures its occupants. 
 It supports their personal and professional development and offers a safe harbor. Affordable housing 
 improves the quality of life of residents by leading to better health, adequate jobs, financial stability, 
