@@ -41,15 +41,25 @@ best fits their needs and budget from all the available choices in the market.
    
    II. Determine appropriate features required for predicting the rent for the homes
    
+   
    The basic requirements to meet this aim we need to do the following steps: 
+      
       1.	Data Collection
+      
       2.	Data Cleaning
+      
       3.	Exploratory Data Analysis
+     
       4.	Feature Encoding
+      
       5.	Feature Engineering to create new features like affordability and Economic Regions of US
+      
       6.	Test Train Split
+     
       7.	Modeling, test the data on different machine learning models 
+      
       8.	Hyperparameter tuning
+      
       9.	Model Evaluation and find the best model 
 
 Data Collection
