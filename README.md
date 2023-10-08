@@ -36,6 +36,7 @@ as the one that offers space for every member of the family. The rent of the hou
 bathrooms and amenities available.  With use of appropriate machine learning algorithms people can find ideal home that 
 best fits their needs and budget from all the available choices in the market. 
 ## To achieve this, we will do the following:
+
    I. Design a Machine Learning model to predict rent for desired homes at desired city or state
    
    
@@ -50,7 +51,7 @@ best fits their needs and budget from all the available choices in the market.
       
       3.	Exploratory Data Analysis
      
-      4.	Feature Encoding
+      4.	Feature Preprocessing
       
       5.	Feature Engineering to create new features like affordability and Economic Regions of US
       
@@ -106,7 +107,8 @@ The region with maximum space available for rent is New England respectively.
 ![square_feet](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/b4f44839-8ad0-4887-81af-4fdb914fe769)
 
 
-Similarly we have also analysed states for the above aspects of affordability and expensiveness to rent a flat. The most affordable and with most available space is North Carolina, most expensive state to rent a home being California followed by Massachusetts.
+Similarly we have also analysed states for the above aspects of affordability and expensiveness to rent a flat. The most affordable and 
+with most available space is North Carolina, most expensive state to rent a home being California followed by Massachusetts.
 
 
 ![AFFORDABILITY_num](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/77896f87-ab2b-410a-8390-78a9c3b6d7aa)
@@ -116,9 +118,9 @@ Similarly we have also analysed states for the above aspects of affordability an
 
 ![PRICE_num](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/13ad2d47-84c9-4c4d-889d-907260b4ed98)
 
-We have also tried to analyze these aspects at city level for each state for example in California, most expensive city was Los Altos and most affordable city was Ridgecrest.
-Similarly in Florida the most expensive city was Palm Beach Gardens and the most affordable city was Seminole. In Texas the most expensive city being Leander and most affordable 
-being Troup. 
+We have also tried to analyze these aspects at city level for each state for example in California, most expensive city was Los Altos and most affordable 
+city was Ridgecrest.Similarly in Florida the most expensive city was Palm Beach Gardens and the most affordable city was Seminole. In Texas the most 
+expensive city being Leander and most affordable being Troup. 
 
 ![CA](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/6b620e88-2c2b-4ed7-ba7c-f3dc68337be0)
 
@@ -128,8 +130,8 @@ being Troup.
 
 ![TX](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/8c835043-3cc9-4a17-81ac-40f087c72ee0)
 
-We have also analysed cities for their spaciousness in various states. For example least spacious city in California is Wilton and most spacious being Granada Hills.
-In Colorado the most spacious city being Erie and least spacious being Highlands Ranch.
+We have also analysed cities for their spaciousness in various states. For example least spacious city in California is Wilton and most spacious 
+being Granada Hills. In Colorado the most spacious city being Erie and least spacious being Highlands Ranch.
 
 
 ![CA](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/826e6fa4-66cb-4b9b-8cae-e8a71d98ef28)
@@ -144,3 +146,12 @@ We have also tried to look at the distribution of Numerical columns like price,s
 
 ![FL](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/b346c7b2-a01d-4e21-96c6-026267e0bfac)
 
+
+### Feature preprocessing and engineering new features
+
+Feature preprocessing to include removal of outliers of numerical columns. One hot encoding for the categorical column cityname. Ordinal encoding 
+of amenities, category and pets allowed. Creating new features like affordability by using exiting features of square feet and price and economic region from existing 
+column state.
+
+### Test Train Split
+We will divide our dataset it into two subsets. The first subset is used to fit the model and is referred to as the training dataset. The second subset is not used to train the model; instead, the input element of the dataset is provided to the model, then predictions are made and compared to the expected values. This second dataset is referred to as the test dataset.
