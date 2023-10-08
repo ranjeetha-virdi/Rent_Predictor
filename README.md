@@ -154,4 +154,22 @@ of amenities, category and pets allowed. Creating new features like affordabilit
 column state.
 
 ### Test Train Split
-We will divide our dataset it into two subsets. The first subset is used to fit the model and is referred to as the training dataset. The second subset is not used to train the model; instead, the input element of the dataset is provided to the model, then predictions are made and compared to the expected values. This second dataset is referred to as the test dataset.
+
+We will create seperate models for top eight states based on datapoints available i.e Texas, California, Varginia, North Carolina, Colorado, Florida, Massachusetts, Maryland. 
+We will create a dictionary with key as state and values as the DataFrame, then we will divide these values of dictionary into two subsets. The first subset is used to fit the model for each state and is referred to as the training dataset. The second subset, test dataset is not used to train the model; instead, the input element of the dataset is provided to the model, then predictions are made and compared to the expected values. 
+
+### Modeling and Hyperparameter Tuning
+
+   The dataset was then used to train different set of Machine Learning models:
+     1. Decision Tree Regression
+     2. Random Forest Regression
+     3. Adaboost Regression
+     4. Gradient Boost Regression
+     5. XGBoost Regression
+
+   #### After evaluation the best performing model was XGBoost Regression which performed the best. The models were evaluted on the basis of two metrics
+        1. R² score
+        2. Mean Absolute Error
+
+   The model was further tuned by adjusting the hyperparameters for xgboost regressor which includes learning rate, max depth and n_estimators.
+
