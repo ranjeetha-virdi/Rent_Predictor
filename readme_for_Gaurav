@@ -1,5 +1,0 @@
-I have trained the model
-I am trying to setup webpage to take inputs and predict house rent.(app.html)
-Please got to util.py->its where I an trying to get prediction and server.py is not complete
-
-can you tell me whats wrong in this section. Its the module that will send and recieve the get and post requests
