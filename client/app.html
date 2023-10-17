@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>US States Rent Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+        <h2>State</h2>
+    <div class="mb-3">
+       
+        <select class="state" name="state" id="uiState">
+            <!-- <option selected>Open this select menu</option> -->
+            <option value="TX">Texas</option>
+            <option value="CA">California</option>
+            <option value="VA">Virginia</option>
+            <option value="NC">North Carolina</option>
+            <option value="CO">Colorado</option>
+            <option value="FL">Florida</option>
+            <option value="MA">Massachusetts</option>
+            <option value="MD">Maryland</option>
+        </select>
+    </div>
+
+    <h2>City</h2>
+    <div class="mb-3">
+        
+        <input type="text" class="city" name="city" id="uiCity">
+    </div>
+	
+    <h2>Area (Square Feet)</h2>
+    <input class="area"  type="text" id="uiSqft" class="floatLabel" name="Squareft" value="1000">
+	
+    
+    
+    
+    <h2>Bedrooms</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-Bedrooms-1" name="uiBedrooms" value="1"/>
+		<label for="radio-Bedrooms-1">1</label>
+		<input type="radio" id="radio-Bedrooms-2" name="uiBedrooms" value="2" checked/>
+		<label for="radio-Bedrooms-2">2</label>
+		<input type="radio" id="radio-Bedrooms-3" name="uiBedrooms" value="3"/>
+		<label for="radio-Bedrooms-3">3</label>
+		<input type="radio" id="radio-Bedrooms-4" name="uiBedrooms" value="4"/>
+		<label for="radio-Bedrooms-4">4</label>
+		<input type="radio" id="radio-Bedrooms-5" name="uiBedrooms" value="5"/>
+		<label for="radio-Bedrooms-5">5</label>
+	</div>
+	
+
+
+
+
+<form class="form">
+	<h2>Bathrooms</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-Bathrooms-1" name="uiBathrooms" value="1"/>
+		<label for="radio-Bathrooms-1">1</label>
+		<input type="radio" id="radio-Bathrooms-2" name="uiBathrooms" value="2" checked/>
+		<label for="radio-Bathrooms-2">2</label>
+		<input type="radio" id="radio-Bathrooms-3" name="uiBathrooms" value="3"/>
+		<label for="radio-Bathrooms-3">3</label>
+		<input type="radio" id="radio-Bathrooms-4" name="uiBathrooms" value="4"/>
+		<label for="radio-Bathrooms-4">4</label>
+		<input type="radio" id="radio-Bathrooms-5" name="uiBathrooms" value="5"/>
+		<label for="radio-Bathrooms-5">5</label>
+	</div>
+
+
+ 
+
+
+    <h2>Category</h2>
+	<div>
+  <select class="category" name="" id="uiCategory">
+    <option value="" disabled="disabled" selected="selected">Choose a Category</option>
+		<option>apartment</option>
+        <option>home</option>
+  </select>
+</div>
+
+
+    <h2>Fee</h2>
+    <div>
+<select class="fee" name="" id="uiFee">
+<option value="" disabled="disabled" selected="selected">Yes for with Fees or No for without Fees</option>
+    <option>Yes</option>
+    <option selected = "selected">No</option>
+</select>
+</div>
+
+    <h2>Pets</h2>
+<div>
+<select class="pets" name="" id="uiPets">
+<option value="" disabled="disabled" selected="selected">Do you have pets?</option>
+<option selected = "selected">no pets </option>
+<option>only dogs</option>
+<option>only cats</option>
+<option>both cats and dogs</option>
+
+</select>
+</div>
+
+
+<h2>Storage</h2>
+<div>
+<select class="storage" name="" id="uiStorage">
+<option value="" disabled="disabled" selected="selected">True for with Storage or False for without Storage</option>
+<option selected = "selected">True</option>
+<option>False</option>
+</select>
+</div>
+
+<h2>Parking</h2>
+<div>
+<select class="parking" name="" id="uiParking">
+<option value="" disabled="disabled" selected="selected">True for with Parking or False for without Parking</option>
+<option selected = "selected">True</option>
+<option>False</option>
+</select>
+</div>
+
+<h2>Gym</h2>
+<div>
+<select class="gym" name="" id="uiGym">
+<option value="" disabled="disabled" selected="selected">True for with Parking or False for without Parking</option>
+<option selected = "selected">True</option>
+<option>False</option>
+</select>
+</div>
+
+<h2>Pool</h2>
+<div>
+<select class="pool" name="" id="uiPool">
+<option value="" disabled="disabled" selected="selected">True for with Parking or False for without Parking</option>
+<option selected = "selected">True</option>
+<option>False</option>
+</select>
+</div>
+
+<h2>Wooden Floors</h2>
+<div>
+<select class="wood_floors" name="" id="uiWood_floors">
+<option value="" disabled="disabled" selected="selected">True for with Parking or False for without Parking</option>
+<option selected = "selected">True</option>
+<option>False</option>
+</select>
+</div>
+
+<h2>Patio</h2>
+<div>
+<select class="patio" name="" id="uiPatio">
+<option value="" disabled="disabled" selected="selected">True for with Parking or False for without Parking</option>
+<option selected = "selected">True</option>
+<option>False</option>
+</select>
+</div>
+
+<h2>Clubhouse</h2>
+<div>
+<select class="clubhouse" name="" id="uiClubhouse">
+<option value="" disabled="disabled" selected="selected">True for with Parking or False for without Parking</option>
+<option selected = "selected">True</option>
+<option>False</option>
+</select>
+</div>
+
+<h2>Internet</h2>
+<div>
+<select class="internet" name="" id="uiInternet">
+<option value="" disabled="disabled" selected="selected">True for with Parking or False for without Parking</option>
+<option selected = "selected">True</option>
+<option>False</option>
+</select>
+</div>
+
+<h2>Gated</h2>
+<div>
+<select class="gated" name="" id="uiGated">
+<option value="" disabled="disabled" selected="selected">True for with Parking or False for without Parking</option>
+<option selected = "selected">True</option>
+<option>False</option>
+</select>
+</div>
+
+</div>
+<button class="submit" onclick="onClickedEstimateRent()" type="button">Estimate Price</button>
+<div id="uiEstimatedPrice" class="result">	<h2></h2> </div>
+</body>
+</html>
