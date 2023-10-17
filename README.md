@@ -181,5 +181,11 @@ We will create a dictionary with key as state and values as the DataFrame, then 
    
 ![hyperparameter_tuning](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/c8de8224-7c9d-47b7-b421-58b28d23a1a0)
 
-### Obtain Prediction: 
+### To Obtain Prediction: 
+We will configure a flask server to get the input and then run the prediction on our pickled model file. The front end is a HTML webpage, CSS file and JavaScript file to communicate with the web server.
+![app](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/9b011768-51f5-4129-9d6b-f54c963663e6)
 
+
+We can test the flask server configuration using postman app.
+
+![postman](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/d665c6f6-39ff-426e-89d3-35b9ec42a4a1)
