@@ -181,4 +181,5 @@ We will create a dictionary with key as state and values as the DataFrame, then 
    
 ![hyperparameter_tuning](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/c8de8224-7c9d-47b7-b421-58b28d23a1a0)
 
+### Obtain Prediction: 
 
