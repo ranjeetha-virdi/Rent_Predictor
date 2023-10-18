@@ -1,5 +1,6 @@
 
-![Uploading MotleyFool-TMOT-deeef720-rental-home.jpg…]()
+
+![istockphoto-149060607-170667a](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/ef46d092-a9db-4126-945c-d8339ca9ecfa)
 
 
 
