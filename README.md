@@ -1,6 +1,7 @@
 
 
-![istockphoto-149060607-170667a](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/ef46d092-a9db-4126-945c-d8339ca9ecfa)
+
+![istockphoto-149060607-170667a](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/4e61c939-f230-40a6-9ea3-a2273ea3bcdf)
 
 
 
