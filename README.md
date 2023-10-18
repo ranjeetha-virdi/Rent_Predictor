@@ -274,4 +274,4 @@ We will be doing a reverse proxy set up, to route all our requests to our flask 
 ````
     
 12. Running last command above will prompt that server is running on port 5000.
-13. Now just load your cloud url provided by AWS in a browser http://ec2-3-133-88-210.eu-central-1.compute.amazonaws.com/ and this will be fully functional website running in production cloud environment.
+13. Now just load your cloud url provided by AWS in a browser and this will be fully functional website running in production cloud environment.
