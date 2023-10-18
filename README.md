@@ -92,7 +92,6 @@ Varginia, North Carolina, Colorado, Florida, Massachusetts and Maryland.
 To understand the distribution of the properties at various levels starting at Economic Region Level. The US is divided into eight economic regions by 
 The Bureau of Economic Analysis for comparison of economic data and they are as below.
 
-![AFFORDABILITY](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/7ca28943-b3d5-44ac-9202-7f75a051e48c)
 
 ![PRICE](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/23c94df3-e2e4-4637-9722-16710b1d6da7)
 
