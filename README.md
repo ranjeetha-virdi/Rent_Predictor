@@ -1,8 +1,7 @@
 
 
-![MotleyFool-TMOT-deeef720-rental-home](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/0256bc40-da14-49de-90b1-084bf81a86e6)
 
-
+![MotleyFool-TMOT-deeef720-rental-home](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/53a0af1b-6b59-44aa-a2af-13482a2872ea)
 
 
 
