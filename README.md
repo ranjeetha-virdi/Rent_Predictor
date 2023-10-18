@@ -216,7 +216,8 @@ We will be doing a reverse proxy set up, to route all our requests to our flask 
 6. Once you connect to EC2 instance from winscp, we can now copy all code files into /home/ubuntu/ folder. The full path of your root folder is now: /home/ubuntu/us_rent_prediction
 7. After copying code on EC2 server now we can point nginx to load our rent_prediction website by default. For below steps,
    i.   Create this file /etc/nginx/sites-available/usr.conf. The file content looks like this,
-            server {
+    ```
+          server {
                 listen 80;
                     server_name bhp;
                     root /home/ubuntu/us_rent_prediction/client;
@@ -226,15 +227,16 @@ We will be doing a reverse proxy set up, to route all our requests to our flask 
                          proxy_pass http://127.0.0.1:5000;
                     }
             }
+   ```
    ii. Create symlink for this file in /etc/nginx/sites-enabled by running this command,
             sudo ln -v -s /etc/nginx/sites-available/usr.conf
    iii. Remove symlink for default file in /etc/nginx/sites-enabled directory,
             sudo unlink default
    iv. Restart nginx,
             sudo service nginx restart
-8. Now install python packages and start flask server
+9. Now install python packages and start flask server
    sudo apt-get install python3-pip
    sudo pip3 install -r /home/ubuntu/us_rent_prediction/server/requirements.txt
    python3 /home/ubuntu/us_rent_prediction/client/server.py
-9. Running last command above will prompt that server is running on port 5000.
-10. Now just load your cloud url in browser (for me it was http://ec2-3-133-88-210.eu-central-1.compute.amazonaws.com/) and this will be fully functional website running in production cloud environment.
+10. Running last command above will prompt that server is running on port 5000.
+11. Now just load your cloud url in browser (for me it was http://ec2-3-133-88-210.eu-central-1.compute.amazonaws.com/) and this will be fully functional website running in production cloud environment.
