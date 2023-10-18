@@ -216,6 +216,7 @@ We will be doing a reverse proxy set up, to route all our requests to our flask 
 6. Once you connect to EC2 instance from winscp, we can now copy all code files into /home/ubuntu/ folder. The full path of your root folder is now: /home/ubuntu/us_rent_prediction
 7. After copying code on EC2 server now we can point nginx to load our rent_prediction website by default. For below steps,
    i.   Create this file /etc/nginx/sites-available/usr.conf. The file content looks like this,
+    ````
     ```
           server {
                 listen 80;
@@ -228,6 +229,7 @@ We will be doing a reverse proxy set up, to route all our requests to our flask 
                     }
             }
    ```
+      ````
    ii. Create symlink for this file in /etc/nginx/sites-enabled by running this command,
             sudo ln -v -s /etc/nginx/sites-available/usr.conf
    iii. Remove symlink for default file in /etc/nginx/sites-enabled directory,
