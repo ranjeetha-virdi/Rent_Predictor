@@ -244,19 +244,24 @@ We will be doing a reverse proxy set up, to route all our requests to our flask 
     ````
             sudo ln -v -s /etc/nginx/sites-available/usr.conf
     ````
+  
    iii. Remove symlink for default file in /etc/nginx/sites-enabled directory,
     ````
             sudo unlink default
     ````
+   
    iv. Restart nginx,
     ````
             sudo service nginx restart
     ````
+
 11. Now install python packages and start flask server
-    ````
+
+     ````
    sudo apt-get install python3-pip
    sudo pip3 install -r /home/ubuntu/us_rent_prediction/server/requirements.txt
    python3 /home/ubuntu/us_rent_prediction/client/server.py
     ````
+    
 12. Running last command above will prompt that server is running on port 5000.
 13. Now just load your cloud url provided by AWS in a browser http://ec2-3-133-88-210.eu-central-1.compute.amazonaws.com/ and this will be fully functional website running in production cloud environment.
