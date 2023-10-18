@@ -124,10 +124,13 @@ We have also tried to analyze these aspects at city level for each state for exa
 city was Ridgecrest.Similarly in Florida the most expensive city was Palm Beach Gardens and the most affordable city was Seminole. In Texas the most 
 expensive city being Leander and most affordable being Troup. 
 
+
 ![CA](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/6b620e88-2c2b-4ed7-ba7c-f3dc68337be0)
 
 
+
 ![FL](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/6659d653-8ff6-4bd1-b98e-a6e20ec311f5)
+
 
 
 ![TX](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/8c835043-3cc9-4a17-81ac-40f087c72ee0)
