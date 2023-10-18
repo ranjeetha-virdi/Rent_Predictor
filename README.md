@@ -193,3 +193,48 @@ We can test the flask server configuration using postman app.
 
 
 ## Deploying the ML Model to Production on Amazon EC2 Server.
+The final step of this project is to deploy the website to production using an Amazon EC2 instance. There will be a nginx and flsk server running on this instance as well as our website.
+We will be doing a reverse proxy set up, to route all our requests to our flask server running on same EC2 instance at port 5000 using the saved ML Model to serve the predictions requests.
+
+###Steps to setup EC2 on AWS:
+1. Create EC2 instance, also setup security group to accept HTTP and HTTPS traffic by adding rules to allow HTTP and HTTPS incoming traffic.
+2. Now connect to the instance using a command like this,
+   ssh -i "C:\Users\kulpr\.ssh\usa.pem" ubuntu@ec2-3-133-88-210.eu-central-1.compute.amazonaws.com
+3. Steps to setting up NGINX on the EC2 instance:
+   (a) Install nginx on EC2 instance using these commands:
+      sudo apt-get update
+      sudo apt-get install nginx
+   (b) The above command will install nginx server as well as run it. To check the status of the server use:
+      sudo service nginx status
+   (c) commands to start,stop and restart the server:
+      sudo service nginx start
+      sudo service nginx stop
+      sudo service nginx restart
+4. Once we setup the nginx web server, when we run the url for our EC2 instance it will run the welcome to nginx webpage.
+5. Now copy all our code to EC2 instance. We can do this either using git or copy files using winscp. We will use winscp. You can download winscp from here:
+        https://winscp.net/eng/download.php
+6. Once you connect to EC2 instance from winscp, we can now copy all code files into /home/ubuntu/ folder. The full path of your root folder is now: /home/ubuntu/us_rent_prediction
+7. After copying code on EC2 server now we can point nginx to load our rent_prediction website by default. For below steps,
+   i.   Create this file /etc/nginx/sites-available/usr.conf. The file content looks like this,
+            server {
+                listen 80;
+                    server_name bhp;
+                    root /home/ubuntu/us_rent_prediction/client;
+                    index app.html;
+                    location /api/ {
+                         rewrite ^/api(.*) $1 break;
+                         proxy_pass http://127.0.0.1:5000;
+                    }
+            }
+   ii. Create symlink for this file in /etc/nginx/sites-enabled by running this command,
+            sudo ln -v -s /etc/nginx/sites-available/usr.conf
+   iii. Remove symlink for default file in /etc/nginx/sites-enabled directory,
+            sudo unlink default
+   iv. Restart nginx,
+            sudo service nginx restart
+8. Now install python packages and start flask server
+   sudo apt-get install python3-pip
+   sudo pip3 install -r /home/ubuntu/us_rent_prediction/server/requirements.txt
+   python3 /home/ubuntu/us_rent_prediction/client/server.py
+9. Running last command above will prompt that server is running on port 5000.
+10. Now just load your cloud url in browser (for me it was http://ec2-3-133-88-210.eu-central-1.compute.amazonaws.com/) and this will be fully functional website running in production cloud environment.
