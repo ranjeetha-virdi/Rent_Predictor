@@ -101,14 +101,14 @@ Here we have create a new feature called economic region by grouping various sta
 From this feature we could vizualize that Southeast is the most affordable region and Far West is the most expensive region to rent a home.
 The region with maximum space available for rent is New England respectively.
 
-
-![affordability](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/164bc279-d06e-4491-960b-23abbbb3ed6f)
-
-
-![price](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/f48f0039-42f5-46a2-95e0-12b04ade214a)
+![AFFORDABILITY_num](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/d5d39c55-5a3f-4bfc-b9a4-724a93668fe0)
 
 
-![square_feet](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/b4f44839-8ad0-4887-81af-4fdb914fe769)
+![PRICE_num](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/b30d60a4-1fb1-4dd9-94c2-b6afb5779be5)
+
+
+![SQUARE_FEET_num](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/7d4f1480-7748-4be9-907b-eab48b77699e)
+
 
 
 Similarly we have also analysed states for the above aspects of affordability and expensiveness to rent a flat. The most affordable and 
