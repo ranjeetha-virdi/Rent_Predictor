@@ -115,12 +115,14 @@ Similarly we have also analysed states for the above aspects of affordability an
 with most available space is North Carolina, most expensive state to rent a home being California followed by Massachusetts.
 
 
-![AFFORDABILITY_num](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/77896f87-ab2b-410a-8390-78a9c3b6d7aa)
 
 
-![SQUARE_FEET_num](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/5b6ab044-fe9d-4a5b-b362-690ad96c69e9)
+![NC](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/84a1ca87-314e-4adf-a6fd-5e205af8ef07)
 
-![PRICE_num](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/13ad2d47-84c9-4c4d-889d-907260b4ed98)
+
+![CA](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/2d920511-f243-44cd-b50f-4ac9bc9551f0)
+
+![MA](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/d733692f-a7d4-444c-a0f9-1dc6a48d6398)
 
 We have also tried to analyze these aspects at city level for each state for example in California, most expensive city was Los Altos and most affordable 
 city was Ridgecrest.Similarly in Florida the most expensive city was Palm Beach Gardens and the most affordable city was Seminole. In Texas the most 
