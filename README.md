@@ -186,10 +186,10 @@ We will configure a flask server to get the input and then run the prediction on
 
 ![app](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/c8860861-8853-476c-bb60-d94d5f0c243a)
 
-## Deploying the ML Model to Production on Amazon EC2 Server.
-
-
 
 We can test the flask server configuration using postman app.
 
 ![postman](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/d665c6f6-39ff-426e-89d3-35b9ec42a4a1)
+
+
+## Deploying the ML Model to Production on Amazon EC2 Server.
