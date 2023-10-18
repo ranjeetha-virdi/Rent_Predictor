@@ -199,8 +199,10 @@ We will be doing a reverse proxy set up, to route all our requests to our flask 
 ### Steps to setup EC2 on AWS:
 1. Create EC2 instance, also setup security group to accept HTTP and HTTPS traffic by adding rules to allow HTTP and HTTPS incoming traffic.
 2. Now connect to the instance using a command like this,
+    ````
    ssh -i "C:\Users\kulpr\.ssh\usa.pem" ubuntu@ec2-3-133-88-210.eu-central-1.compute.amazonaws.com
-3. Steps to setting up NGINX on the EC2 instance:
+     ````
+4. Steps to setting up NGINX on the EC2 instance:
    (a) Install nginx on EC2 instance using these commands:
       sudo apt-get update
       sudo apt-get install nginx
@@ -210,11 +212,11 @@ We will be doing a reverse proxy set up, to route all our requests to our flask 
       sudo service nginx start
       sudo service nginx stop
       sudo service nginx restart
-4. Once we setup the nginx web server, when we run the url for our EC2 instance it will run the welcome to nginx webpage.
-5. Now copy all our code to EC2 instance. We can do this either using git or copy files using winscp. We will use winscp. You can download winscp from here:
+5. Once we setup the nginx web server, when we run the url for our EC2 instance it will run the welcome to nginx webpage.
+6. Now copy all our code to EC2 instance. We can do this either using git or copy files using winscp. We will use winscp. You can download winscp from here:
         https://winscp.net/eng/download.php
-6. Once you connect to EC2 instance from winscp, we can now copy all code files into /home/ubuntu/ folder. The full path of your root folder is now: /home/ubuntu/us_rent_prediction
-7. After copying code on EC2 server now we can point nginx to load our rent_prediction website by default. For below steps,
+7. Once you connect to EC2 instance from winscp, we can now copy all code files into /home/ubuntu/ folder. The full path of your root folder is now: /home/ubuntu/us_rent_prediction
+8. After copying code on EC2 server now we can point nginx to load our rent_prediction website by default. For below steps,
    i.   Create this file /etc/nginx/sites-available/usr.conf. The file content looks like this,
     ````
     
