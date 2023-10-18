@@ -1,10 +1,9 @@
 
 
 
-![istockphoto-149060607-170667a](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/4e61c939-f230-40a6-9ea3-a2273ea3bcdf)
 
 
-
+![how-to-find-rental-comps-for-your-rental](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/9a69ce19-67ee-4d75-b6b5-4a67bc022e14)
 
 
 
