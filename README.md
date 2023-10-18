@@ -196,7 +196,7 @@ We can test the flask server configuration using postman app.
 The final step of this project is to deploy the website to production using an Amazon EC2 instance. There will be a nginx and flsk server running on this instance as well as our website.
 We will be doing a reverse proxy set up, to route all our requests to our flask server running on same EC2 instance at port 5000 using the saved ML Model to serve the predictions requests.
 
-###Steps to setup EC2 on AWS:
+### Steps to setup EC2 on AWS:
 1. Create EC2 instance, also setup security group to accept HTTP and HTTPS traffic by adding rules to allow HTTP and HTTPS incoming traffic.
 2. Now connect to the instance using a command like this,
    ssh -i "C:\Users\kulpr\.ssh\usa.pem" ubuntu@ec2-3-133-88-210.eu-central-1.compute.amazonaws.com
