@@ -114,44 +114,47 @@ The region with maximum space available for rent is New England respectively.
 Similarly we have also analysed states for the above aspects of affordability and expensiveness to rent a flat. The most affordable and 
 with most available space is North Carolina, most expensive state to rent a home being California followed by Massachusetts.
 
+![AFFORDABILITY](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/970a2fd0-7ec1-400a-b74a-40dd5139b236)
+
+
+![PRICE_num](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/e28b5354-79e8-42f0-90cd-6ac213177e01)
 
 
 
-
-
+![SQUARE_FEET_num](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/dbabc4a5-a727-4ffb-b959-e8541183867d)
 
 
 
 We have also tried to analyze these aspects at city level for each state for example in California, most expensive city was Los Altos and most affordable 
 city was Ridgecrest.Similarly in Florida the most expensive city was Palm Beach Gardens and the most affordable city was Seminole. In Texas the most 
 expensive city being Leander and most affordable being Troup. 
+![CA](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/65ab156b-99e4-4470-bd30-2995cd2c1c94)
 
 
-![CA](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/6b620e88-2c2b-4ed7-ba7c-f3dc68337be0)
-
-
-
-![FL](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/6659d653-8ff6-4bd1-b98e-a6e20ec311f5)
+![FL](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/434e53a9-68f8-456e-a834-2fa462ec46d8)
 
 
 
-![TX](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/8c835043-3cc9-4a17-81ac-40f087c72ee0)
+![TX](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/9ae08348-7c04-47c0-a68d-fd7b0c86398a)
 
 We have also analysed cities for their spaciousness in various states. For example least spacious city in California is Wilton and most spacious 
 being Granada Hills. In Colorado the most spacious city being Erie and least spacious being Highlands Ranch.
 
+![CA](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/80dfe826-d912-4840-b12b-f9d53d4a4502)
 
-![CA](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/826e6fa4-66cb-4b9b-8cae-e8a71d98ef28)
 
-![CO](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/48ad9b01-7fc5-448d-a35f-357044832014)
+
+![CO](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/a9119cf2-ac5f-40ef-8314-2d633e15553d)
+
 
 
 
 We have also tried to look at the distribution of Numerical columns like price,square feet, Bedrooms and Bathrooms.
 
-![CA](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/305ce54d-a36a-4fbe-a8dc-4d95af3498be)
+![CA](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/517a1109-fdc4-48e1-950e-279ba87c8e69)
 
-![FL](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/b346c7b2-a01d-4e21-96c6-026267e0bfac)
+
+![FL](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/ca349160-3dd1-4540-91af-0275669bb9ed)
 
 
 ### Feature preprocessing and engineering new features
@@ -173,10 +176,9 @@ We will create a dictionary with key as state and values as the DataFrame, then 
      3. Adaboost Regression
      4. Gradient Boost Regression
      5. XGBoost Regression
-![all_models_mae](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/07caa464-4535-463d-8d2a-e3c39cfdca56)
+![all_models_mae](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/eefd5592-6301-4887-94ff-f687df42766d)
 
-
-![all_models_r2](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/bcf0dd2f-8ccd-480f-b2c0-dfdf3b7b85c5)
+![all_models_r2](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/7bb03266-b06f-4e18-bd5c-70710648ee22)
 
 #### After evaluation the best performing model was XGBoost Regression which performed the best. The models were evaluted on the basis of two metrics
         1. R² score
@@ -184,17 +186,20 @@ We will create a dictionary with key as state and values as the DataFrame, then 
 
    The model was further tuned by adjusting the hyperparameters for xgboost regressor which includes learning rate, max depth and n_estimators.
    
-![hyperparameter_tuning](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/c8de8224-7c9d-47b7-b421-58b28d23a1a0)
+![hyperparameter_tuning](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/d91399b6-7824-4154-8c03-00f52c5a844e)
+
 
 ### To Obtain Prediction: 
 We will configure a flask server to get the input and then run the prediction on our pickled model file. The front end is built using HTML, CSS and JavaScript to communicate with the web server.
 
-![app](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/c8860861-8853-476c-bb60-d94d5f0c243a)
+![app](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/12bcbf05-9085-4c02-9489-7552d1a03a0e)
+
 
 
 We can test the flask server configuration using postman app.
 
-![postman](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/d665c6f6-39ff-426e-89d3-35b9ec42a4a1)
+![postman](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/2285d2b9-0311-439f-8dd5-dbb8fbec87f6)
+
 
 
 ## Deploying the ML Model to Production on Amazon EC2 Server.
