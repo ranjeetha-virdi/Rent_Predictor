@@ -92,8 +92,11 @@ Varginia, North Carolina, Colorado, Florida, Massachusetts and Maryland.
 To understand the distribution of the properties at various levels starting at Economic Region Level. The US is divided into eight economic regions by 
 The Bureau of Economic Analysis for comparison of economic data and they are as below.
 
+![AFFORDABILITY](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/7ca28943-b3d5-44ac-9202-7f75a051e48c)
 
-![BEA_regions](https://github.com/ranjeetha-virdi/house_rent_predictor/assets/81987445/ab1f135e-2990-47b7-a43b-97494943ac1a)
+![PRICE](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/23c94df3-e2e4-4637-9722-16710b1d6da7)
+
+![SQUARE_FEET](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/40804fa2-7e85-4eaf-abab-21e240feb22b)
 
 Here we have create a new feature called economic region by grouping various states to create these regions from the existing feature state.
 From this feature we could vizualize that Southeast is the most affordable region and Far West is the most expensive region to rent a home.
