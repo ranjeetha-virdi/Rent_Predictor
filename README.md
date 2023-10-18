@@ -1,5 +1,6 @@
 
 
+![MotleyFool-TMOT-deeef720-rental-home](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/0256bc40-da14-49de-90b1-084bf81a86e6)
 
 
 
