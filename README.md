@@ -217,7 +217,7 @@ We will be doing a reverse proxy set up, to route all our requests to our flask 
 7. After copying code on EC2 server now we can point nginx to load our rent_prediction website by default. For below steps,
    i.   Create this file /etc/nginx/sites-available/usr.conf. The file content looks like this,
     ````
-    ```
+    
           server {
                 listen 80;
                     server_name bhp;
@@ -228,7 +228,7 @@ We will be doing a reverse proxy set up, to route all our requests to our flask 
                          proxy_pass http://127.0.0.1:5000;
                     }
             }
-   ```
+   
       ````
    ii. Create symlink for this file in /etc/nginx/sites-enabled by running this command,
             sudo ln -v -s /etc/nginx/sites-available/usr.conf
