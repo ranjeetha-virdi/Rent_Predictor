@@ -155,7 +155,7 @@ The distribution of apartments and homes with respect to number of rooms.
 ![Los Angeles](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/cd2cf5b1-97d6-4c16-a63f-86a15dae86d8)
 ![Austin](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/518a15b6-58d7-44da-8fb4-ffcb7aa39620)
 
-We have also tried to look at the distribution of Numerical values like price,square feet, Bedrooms and Bathrooms.
+**Data Distribution** : We have also tried to look at the distribution of Numerical values like price,square feet, Bedrooms and Bathrooms.
 We have identified outliers in numerical columns.
 
 
@@ -164,6 +164,8 @@ We have identified outliers in numerical columns.
 
 ![FL](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/ca349160-3dd1-4540-91af-0275669bb9ed)
 
+Also understood the distribution of apartments with respect to different number of rooms.
+![citywise_room](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/2f1fa8f7-fb1f-492c-b4a4-dc1732bc45db)
 
 ### Feature preprocessing and engineering new features
 
