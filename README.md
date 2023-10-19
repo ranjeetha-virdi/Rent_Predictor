@@ -146,6 +146,9 @@ being Granada Hills. In Colorado the most spacious city being Erie and least spa
 
 ![CO](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/a9119cf2-ac5f-40ef-8314-2d633e15553d)
 
+**Data Distribution** : We have also tried to look at the distribution of Numerical values like price,square feet, Bedrooms and Bathrooms.
+We have identified outliers in numerical columns. 
+
 ![price_outlier](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/7dffc7bf-3cff-4a1e-a626-a15e7c6bc3dd)
 
 ![squarefeet_outlier](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/bdf49fc4-cbdf-4a48-8b65-0ff01d69d327)
@@ -155,8 +158,7 @@ The distribution of apartments and homes with respect to number of rooms.
 ![Los Angeles](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/cd2cf5b1-97d6-4c16-a63f-86a15dae86d8)
 ![Austin](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/518a15b6-58d7-44da-8fb4-ffcb7aa39620)
 
-**Data Distribution** : We have also tried to look at the distribution of Numerical values like price,square feet, Bedrooms and Bathrooms.
-We have identified outliers in numerical columns.
+
 
 
 ![CA](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/517a1109-fdc4-48e1-950e-279ba87c8e69)
