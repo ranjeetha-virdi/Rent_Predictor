@@ -3,7 +3,7 @@
 
 
 
-![how-to-find-rental-comps-for-your-rental](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/9a69ce19-67ee-4d75-b6b5-4a67bc022e14)
+![architecture - Kopie](https://github.com/ranjeetha-virdi/Rent_Predictor/assets/81987445/335926ec-7f0e-4bce-9343-15d59f0eafc5)
 
 
 
