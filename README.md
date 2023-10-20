@@ -84,8 +84,7 @@ The cleaning process include dropping columns like address, latitude and longitu
 Convert the price feature for some properties were specified in terms of weekly basis to monthly basis. Formatting amenities columns to properly 
 encode ordinal values based on their importance. Example if an apartment is with acess to golf club and swimming pool then it will be evaluated to
 have a higher rent as compared to an apartment only with a refrigerator and ac. Bring columns like category which specifies the type of property ie 
-an apartment or a home is available at rent. Then create seperate dataframes for each state with maximum data points in our case it was Texas, California, 
-Varginia, North Carolina, Colorado, Florida, Massachusetts and Maryland.
+an apartment or a home is available at rent. Then create seperate dataframes for each state with maximum data points in our case it was Texas, California, Virginia, North Carolina, Colorado, Florida, Massachusetts and Maryland.
 
 ### Exploratory Data Analysis
 
