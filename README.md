@@ -285,4 +285,4 @@ We will be doing a reverse proxy set up, to route all our requests to our flask 
     
 12. Running last command above will prompt that server is running on port 5000.
 13. Now just load your cloud url provided by AWS in a browser and this will be fully functional website running in production cloud environment.
-#### [Link to blog on rent predictor in medium] (https://medium.com/@ranjeethara/an-analytical-look-into-the-us-home-rental-market-f99bd12f7e60)
+#### Link to blog on rent predictor in medium, https://medium.com/@ranjeethara/an-analytical-look-into-the-us-home-rental-market-f99bd12f7e60
